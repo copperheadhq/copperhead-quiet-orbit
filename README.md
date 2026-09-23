@@ -30,9 +30,7 @@ manufacturer.
 
 The same day we gave that post to [copperhead](https://x.com/copperheadhq) as a brief and
 [shared the result](https://x.com/animeshsingh38/status/2102001126682042727). This repository is
-that build, with its source files.
-
-It is an independent design that started from the public post. No files, images or schematics
+that build, with its source files. It is an independent design that started from the public post. No files, images or schematics
 from the original project are used here.
 
 ## The circuit
