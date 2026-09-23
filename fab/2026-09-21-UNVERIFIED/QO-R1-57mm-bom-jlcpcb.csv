@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC Part #,MPN,Note
+1uF,C1,C_0603_1608Metric,,CC0603KRX7R9BB105,no LCSC match for this MPN
+4.7uF,C2,C_0805_2012Metric,,GRM21BR71A475KA73L,no LCSC match for this MPN
+100nF,C3,C_0603_1608Metric,C14663,CC0603KRX7R9BB104,basic
+1N4148W,D1,D_SOD-123,C81598,1N4148W-7-F,"basic; listed as 1N4148W, not the -7-F MPN. Wrong part for the power path, fit a Schottky"
+Amber LED,"D2,D3,D4,D5",LED_1206_3216Metric,C5478408,150120AS75000,extended; stock 100
+100mA,F1,Fuse_0603_1608Metric,C210355,MF-FSMF010X-2,extended
+USB-C,J1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,C3020560,USB4105-GF-A,extended
+AVR-ISP-6,J2,IDC-Header_2x03_P2.54mm_Vertical,,61200621621,through-hole; no LCSC match for this MPN
+5.1k,"R1,R2",R_0603_1608Metric,C105580,RC0603FR-075K1L,extended
+10k,R3,R_0603_1608Metric,C98220,RC0603FR-0710KL,extended; stock 22
+680,"R4,R5,R6,R7",R_0603_1608Metric,C112310,RC0603FR-07680RL,extended; stock 71
+ATtiny84A,U1,SOIC-14_3.9x8.7mm_P1.27mm,C220597,ATTINY84A-SSUR,"extended; stock 5 (the tube part, -SSU, is C144333, stock 40)"

@@ -1,0 +1,55 @@
+# Licensing: Quiet Orbit QO-R1
+
+Copyright (c) 2026 the Quiet Orbit QO-R1 contributors.
+
+This project is released under three licences, chosen per file type. Full texts are in
+`LICENSES/`.
+
+## Hardware: CERN-OHL-S-2.0
+
+Applies to: `hardware/`, `fab/`, `3d/`
+
+    This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
+
+    You may redistribute and modify this source and make products using it under
+    the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+    This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+    INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+    PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+    Source location: https://github.com/copperheadhq/copperhead-quiet-orbit
+
+CERN-OHL-S is *strongly reciprocal*: if you distribute a product made from a modified version
+of this design, you must make the complete modified source available under the same licence.
+
+## Software: GPL-3.0-only
+
+Applies to: `firmware/`
+
+    This program is free software: you can redistribute it and/or modify it under
+    the terms of the GNU General Public License, version 3.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+## Documentation: CC-BY-4.0
+
+Applies to: `docs/`, `images/`, `README.md` and the README files in each directory.
+
+Share and adapt freely, with attribution.
+
+## Not covered by any of the above
+
+**Trademarks.** The copperhead word mark and the snake lockup rendered into the silkscreen of
+`hardware/` and `fab/` are trademarks. No trademark rights are granted by any licence above.
+Remove them from derivative boards.
+
+**Third-party libraries.** `hardware/libs/` and `hardware/sym-lib-cache/` contain footprints
+and symbols derived from the KiCad standard libraries, which carry their own licence (CC-BY-SA
+4.0 with an exception for use in designs; see https://www.kicad.org/libraries/license/). That
+exception is why boards using them, including this one, are not forced to CC-BY-SA.
+
+**Component 3D models.** The models inside the files in `3d/` come from the KiCad standard
+library and are generic package bodies, not the exact manufacturer parts.
